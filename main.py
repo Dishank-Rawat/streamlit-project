@@ -9,7 +9,6 @@ st.info("Use test passwords instead of real passwords.")
 password = st.text_input(
     "Enter a test password:",
     type="password",
-    placeholder="Enter your password here"
 )
 
 if password:
